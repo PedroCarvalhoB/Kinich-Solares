@@ -49,27 +49,3 @@ nav#menu{
     display: block;
 
 }
-img#painelgrande{
-    display: block;
-    float: right;
-    padding: 30px;
-    width: 400px;
-    border-radius: 35px;
-}
-main>h1{
-    color: #28479a;
-    margin: 20px;
-    margin-top: 40px;
-}
-section,main>p{
-    margin-top: 30px;
-    text-align: justify;
-    font-size: large;
-    padding: 15px;
-}
-section>h2{
-    color: #28479a;
-    font-size: 1.8em;
-    margin: 20px;
-    margin-top: 40px;
-}
