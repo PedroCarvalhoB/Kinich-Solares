@@ -63,7 +63,7 @@ main>h1{
 }
 section,main>p{
     margin-top: 30px;
-    text-align: justify;
+    text-align: left;
     font-size: large;
     padding: 15px;
 }
