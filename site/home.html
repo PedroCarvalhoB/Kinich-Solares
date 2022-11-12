@@ -23,7 +23,7 @@
     </header>
     <main>
         <h1>Como Funciona A Energia Solar</h1>
-        <img src="imagens/paineis-grande.jpg" alt="" id="painelgrande">
+        <img src="imagens/placas-solares.png" alt="" id="painelgrande">
         
         <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Inventore adipisci ipsum error provident doloremque voluptates voluptatibus nulla distinctio accusantium harum blanditiis iste facilis corrupti, quaerat quod a ipsam rem animi. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Perspiciatis, rem illum dolor vel voluptate nemo nobis quam unde dolorem sint fugit, aut rerum excepturi ipsa quod hic inventore accusantium vitae? Lorem ipsum dolor sit amet consectetur adipisicing elit. Corporis rerum sequi praesentium aliquam minima, illum fuga non magni beatae ab necessitatibus quibusdam ut perferendis doloremque.</p>
 
@@ -33,20 +33,26 @@
     <section id="calcular">
         <div>
             <h2 id="titulo"><strong>Faça as contas!</strong></h2>
+            <h4 id="subtitulo">Calcule quantas placas solares serão necessárias para suprir seu gasto de energia!</h4>
         </div>
-        <div id="subtitulo">
-            <p>Calcule quantas placas solares serão necessárias para suprir seu uso de energia!</p>
+        
+        <div>
+            <img src="imagens/calculadora.png" alt="" id="calculadora">
         </div>
+        
         <form action="lol.php" method="get">
+            
+
             <div class="campo">
-                <label for="consumo">Escreva aqui, em kWh, aproximadamente quanta energia você gasta por mês: </label>
+                <label for="consumo"> <strong> Escreva aqui, em kWh, aproximadamente quanta energia você gasta por mês:</strong> </label>
                 <input type="number" name="consumo" id="consumo">
             </div>
             
+
             <br>
 
             <div class="campo">
-                <label for="painel">Escolha o modelo do painel: </label>
+                <label for="painel"><strong>Escolha o modelo do painel: </strong></label>
                 <select name="painel" id="painel">
                     <option value="210">Placas de 210Wp</option>
                     <option value="340">Placas de 340Wp</option>
@@ -60,7 +66,6 @@
             <br>
             <p id="resp"></p>
         </form>
-        <img src="imagens/calculadora.png" alt="" id="calculadora">
     </section>
 
 </body>
