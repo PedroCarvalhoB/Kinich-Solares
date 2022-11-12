@@ -30,29 +30,37 @@
         <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nihil praesentium maxime non quia commodi repudiandae ea laborum, ratione iusto optio deleniti suscipit necessitatibus unde totam atque facilis iste repellendus nemo. Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquid facilis optio sapiente provident quo explicabo, blanditiis illum quis est commodi quas tenetur. Autem quia quos, quis numquam itaque aliquid sunt. Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consectetur, doloribus quas ad libero nihil numquam itaque eius debitis alias odio, ratione, aut illo atque! Eius vel laborum ipsum laboriosam neque.</p>
         
     </main>
-    <section id="agendar">
-        <h2><strong>Faça as contas!</strong></h2>
-        <form action="lol.php" method="get">
+    <section id="calcular">
+        <div>
+            <h2 id="titulo"><strong>Faça as contas!</strong></h2>
+        </div>
+        <div id="subtitulo">
             <p>Calcule quantas placas solares serão necessárias para suprir seu uso de energia!</p>
-            <label for="consumo">Escreva aqui em kWh: </label>
-            <input type="number" name="consumo" id="consumo">
+        </div>
+        <form action="lol.php" method="get">
+            <div class="campo">
+                <label for="consumo">Escreva aqui, em kWh, aproximadamente quanta energia você gasta por mês: </label>
+                <input type="number" name="consumo" id="consumo">
+            </div>
             
             <br>
 
-            <label for="painel">Escolha o painel: </label>
-            <select name="painel" id="painel">
-                <option value="210">Placas de 210Wp</option>
-                <option value="340">Placas de 340Wp</option>
-                <option value="465">Placas de 465Wp</option>
-            </select>
+            <div class="campo">
+                <label for="painel">Escolha o modelo do painel: </label>
+                <select name="painel" id="painel">
+                    <option value="210">Placas de 210Wp</option>
+                    <option value="340">Placas de 340Wp</option>
+                    <option value="465">Placas de 465Wp</option>
+                </select>
+            </div>
 
             <br>
 
-            <input type="submit" value="Go!" onclick="return energy()">
+            <input class="botao" type="submit" value="Calcular!" onclick="return energy()">
             <br>
             <p id="resp"></p>
         </form>
-        
+        <img src="imagens/calculadora.png" alt="" id="calculadora">
     </section>
 
 </body>

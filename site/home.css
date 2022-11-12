@@ -67,7 +67,7 @@ section,main>p,section>label{
     font-size: large;
     padding: 15px;
 }
-section>h2{
+#titulo{
     color: #28479a;
     font-size: 1.8em;
     margin: 20px;
