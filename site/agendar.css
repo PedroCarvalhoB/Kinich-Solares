@@ -64,23 +64,18 @@ nav#menu{
     padding: 10px;
 } 
 
-/* Elementos de tag <fieldset>*/
-fieldset {
-    border: 0;
-}
 
-/* Elemento de tag <body> */
+
 main{
     background-color: rgba(240, 248, 255, 0.452);
     font-size: 1em;
-    /* margin-left: 36%;
-    margin-top: 2%; */
+
     margin: auto;
     margin-top: 50px;
     margin-bottom: 50px;
     justify-content: center;
     max-width: 600px;
-    height: 610px;
+    height: 700px;
     border-radius: 8px;
 }
 
@@ -106,7 +101,7 @@ input, textarea, button {
 }
 
 /* Elementos de classe "campo" das tags <input> com atributo text e email, da tag <select> e da tag <textarea>*/
-.campo input[type="text"], .campo input[type="email"], .campo textarea {
+.campo input[type="text"], .campo input[type="email"], .campo input[type="tel"] {
     padding: 1em;
     border: 2px solid black;
     box-shadow: 2px 2px 2px rgba(0,0,0,0.2);
@@ -141,4 +136,3 @@ input, textarea, button {
 .botao, select{
     cursor: pointer;
 }
-
