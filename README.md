@@ -1,2 +1,2 @@
-﻿# KinichSolares.github.io
+﻿# Kinich-Solares
 
